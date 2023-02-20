@@ -54,3 +54,12 @@ Play Area and Staging Area:
   - [ ] Rotate item
 - Chill background music
 - Snappy/responsive pick up/put down item feel
+
+## Asset Credits
+
+Inventory background - https://opengameart.org/content/golden-ui-bigger-than-ever-edition
+
+## Learnings
+
+- I forgot how to do Tilemaps and how to prep assets for it. [Here's the docs which were pretty clear and straight forward!](https://docs.unity3d.com/Manual/Tilemap-workflow.html)
+  - Docs mentions something interesting: set the Pixels per Unit to match the sprite's width, so the sprite fits the grid exactly! Since my asset is `32x32`, I set it to `32`!
